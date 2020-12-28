@@ -1,5 +1,4 @@
 # TDGNN：Continuous-Time Link Prediction via Temporal Dependent
-Graph Neural Network
 This is our Pytorch implementation for the paper:
 
 > Liang Qu, Huaisheng Zhu, Qiqi Duan, and Yuhui Shi. 2020. Continuous-Time Link Prediction via Temporal Dependent Graph Neural Network. In Proceedings of The Web Conference 2020 (WWW '20). Association for Computing Machinery, New York, NY, USA, 3026–3032. DOI:https://doi.org/10.1145/3366423.3380073
