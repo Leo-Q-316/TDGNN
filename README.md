@@ -28,26 +28,11 @@ series = {WWW '20}
 }
 ```
 
-## Environment Requirement
-
-The code has been tested running under Python 3.5.2
-
-
-
-## Dataset
-
-Since the copyright of datasets, we cannot release them directly. To facilitate the line of research, we provide the toy IA-CONTACTS-HYPERTEXT09 dataset in this repository. Anyone who needs the full datasets can get them in [NetworkRepository](http://networkrepository.com/)
-
 ## Usage
 
 ``` 
-python3 main.py -input_node ../contact/feature_random_contact.txt -input_edge_train ../contact/edge_train_contact -input_edge_test ../contact/edge_train_contact -output_file result -aggregate_function origin -hidden_dimension 128
+python3 model.py -input_node ../contact/feature_random_contact.txt -input_edge_train ../contact/edge_train_contact -input_edge_test ../contact/edge_train_contact -output_file result -aggregate_function origin -hidden_dimension 128
 ```
 
-Some important arguments:
 
-- `input_node`: node features
-- `input_edge_train`: edges in training set
-- `input_edge_test`: edge in testing set
-- `aggre`
 
